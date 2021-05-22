@@ -21,7 +21,6 @@ const TextSection = (props) => {
 
 TextSection.propTypes = {
   image: PropTypes.string,
-  alt: PropTypes.string,
   rubrik: PropTypes.string
 }
 

@@ -6,7 +6,7 @@ import {
 const Header = () => {
   return (
         <section className="nav-section">
-            <img className="logo" src="./images/logo.png" alt="logo"></img>
+            <img className="logo" src="./images/logo.png"></img>
             <nav className="nav">
                     <ul>
                         <li>
