@@ -1,11 +1,11 @@
-import React from 'react';
-import TextSection from '../components/TextSection';
+import React from 'react'
+import TextSection from '../components/TextSection'
 const About = () => {
-    return (
+  return (
         <div>
             <TextSection image="./images/eagle.png" rubrik="About us" />
         </div>
-    )
+  )
 }
 
-export default About;
+export default About

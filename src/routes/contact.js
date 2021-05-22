@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'
 
 const Contact = () => {
-    return (
-        <div class="inputWrapper">
+  return (
+        <div className="inputWrapper">
         <h1>Contact Page</h1>
 
-            <section class="inputSection">
+            <section className="inputSection">
             <input type="text" placeholder="First name.." />
             <input type="text" placeholder="Last name.." />
             <input type="email" placeholder="Type your e-mail.." />
-            <button class="submitButton">Submit</button>
+            <button className="submitButton">Submit</button>
             </section>
         </div>
-    )
+  )
 }
 
-export default Contact;
+export default Contact
