@@ -1,15 +1,13 @@
-import React from 'react';
+import React from 'react'
 import {
-    Link
-} from "react-router-dom";
-
-
+  Link
+} from 'react-router-dom'
 
 const Header = () => {
-    return (
-        <section class="nav-section">
-            <img class="logo" src="./images/logo.png" alt="logo"></img>
-            <nav class="nav">
+  return (
+        <section className="nav-section">
+            <img className="logo" src="./images/logo.png" alt="logo"></img>
+            <nav className="nav">
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -23,7 +21,7 @@ const Header = () => {
                     </ul>
                 </nav>
         </section>
-    );
+  )
 }
 
-export default Header;
+export default Header
